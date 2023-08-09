@@ -8,5 +8,5 @@ from snakefood.filter import do_filter
 
 for _, (tbase, tfn) in do_filter():
     if tbase is not None:
-        print join(tbase, tfn)
+        print(join(tbase, tfn))
 

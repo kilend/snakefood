@@ -28,7 +28,7 @@ from testsupport import *
 
 
 def test_double():
-    "Test that the root directories are being calculated correctly."
+    """Test that the root directories are being calculated correctly."""
 
     fn = join(data, 'double/double.py')
     print('Testing for: %s' % fn)

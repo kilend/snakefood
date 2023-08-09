@@ -366,7 +366,8 @@ except ImportError:
     try:
         from pkgutil import ImpImporter
     except ImportError:
-        from snakefood.fallback.pkgutil import ImpImporter
+        print('bloed gloffa')
+        # from snakefood.fallback.pkgutil import ImpImporter
 
 def find_dotted(names, parentdir=None):
     """

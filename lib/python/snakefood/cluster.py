@@ -10,7 +10,7 @@ for relative filenames.
 import sys
 from itertools import imap
 
-from snakefood.fallback.collections import defaultdict
+from collections import defaultdict
 from snakefood.depends import read_depends, output_depends
 
 
